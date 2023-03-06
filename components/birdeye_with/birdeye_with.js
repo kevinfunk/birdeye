@@ -1,6 +1,6 @@
 let With = createReactClass({
   render: function () {
-    let display = 610;
+    let display = 3,489;
     return (
       <div>
         <Display display={display} />
