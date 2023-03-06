@@ -1,0 +1,12 @@
+name: Birdeye With SS
+category: cpt_cat_example
+description: 'Birdeye With SS component using React from a CDN.'
+js:
+  //unpkg.com/react@16.7.0/umd/react.production.min.js: { type: external, minified: true, crossorigin: anonymous }
+  //unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js: { type: external, minified: true, crossorigin: anonymous }
+  //unpkg.com/create-react-class@15.6.0/create-react-class.min.js : { type: external, minified: true, crossorigin: anonymous }
+  //unpkg.com/babel-standalone@6/babel.min.js: { type: external, minified: true, crossorigin: anonymous }
+  birdeye_with_ss.js: {attributes: { type: 'text/babel' }}
+css:
+  birdeye_with_ss.css: {}
+html: index.html
