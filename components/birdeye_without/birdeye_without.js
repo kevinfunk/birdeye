@@ -13,7 +13,7 @@ let Without = createReactClass({
 let Display = createReactClass({
   render: function () {
     return (
-      <div className="birdeye without">
+      <div className="birdeye-display without">
         {this.props.display}
       </div>
     )
