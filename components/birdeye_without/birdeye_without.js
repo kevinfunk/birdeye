@@ -1,6 +1,6 @@
 let Without = createReactClass({
   render: function () {
-    let display = 8;
+    let display = 6;
     return (
       <div>
         <Display display={display} />
