@@ -1,6 +1,6 @@
 let With = createReactClass({
   render: function () {
-    let display = 3,489;
+    let display = '3,489';
     return (
       <div>
         <Display display={display} />
@@ -13,7 +13,7 @@ let With = createReactClass({
 let Display = createReactClass({
   render: function () {
     return (
-      <div className="display">
+      <div className="birdeye with">
         {this.props.display}
       </div>
     )
